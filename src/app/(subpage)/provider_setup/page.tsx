@@ -1,3 +1,4 @@
+import LocationForm from "@/app/components/locationForm";
 import { ReactNode } from "react";
 
 export default function page({children}: {
@@ -5,7 +6,8 @@ export default function page({children}: {
 }) {
     return (
         <>
-            <h1>hello</h1>
+            {/* <h1>hello</h1> */}
+            <LocationForm></LocationForm>
         </>
     )    
 }
